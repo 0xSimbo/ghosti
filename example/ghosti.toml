@@ -1,0 +1,16 @@
+ghosti_folder = "_ghosti"
+output_folder = "src"
+
+
+# Files that won't be copied during build
+files_to_ignore = [
+    "./ghosti/Test.sol",
+    "./ghosti/Mock.sol"
+]
+
+
+
+[[import_aliases]]
+import_prefix = "@/_ghosti/"
+replace_with = "@/src/"
+
