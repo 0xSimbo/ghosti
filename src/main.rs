@@ -160,14 +160,6 @@ files_to_ignore = [
 [[import_aliases]]
 import_prefix = "@/_ghosti/"
 replace_with = "@/src/"
-
-[[import_aliases]]
-import_prefix = "@openzeppelin/"
-replace_with = "../../lib/openzeppelin-contracts/contracts/"
-
-[[import_aliases]]
-import_prefix = "@solmate/"
-replace_with = "../../lib/solmate/src/"
 "#;
 
 fn init_ghosti(config_path: &Path) -> Result<()> {
