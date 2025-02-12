@@ -1,0 +1,20 @@
+ghosti_folder = "example/_ghosti"
+output_folder = "example/src"
+
+# Files that won't be copied during build (must include complete filepath)
+files_to_ignore = [
+    "./example/_ghosti/Test.sol",
+    "./example/_ghosti/Mock.sol"
+]
+
+[[import_aliases]]
+import_prefix = "@/_ghosti/"
+replace_with = "@/src/"
+
+[[import_aliases]]
+import_prefix = "@openzeppelin/"
+replace_with = "../../lib/openzeppelin-contracts/contracts/"
+
+[[import_aliases]]
+import_prefix = "@solmate/"
+replace_with = "../../lib/solmate/src/" 
