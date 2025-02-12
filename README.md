@@ -269,7 +269,7 @@ ghosti_folder = "ghosti" # Where your ghosti (test) contracts live
 output_folder = "src" # Where final production code will go
 
 [[import_aliases]]
-import_prefix = "@/ghosti/"
+import_prefix = "@/_ghosti/"
 replace_with = "@/src/"
 ```
 
